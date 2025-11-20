@@ -27,7 +27,7 @@ A detailed report explaining installation of Ubuntu on a system or VM.
 * Screenshots of installation stages
 * Post‑installation checks (terminal, files, settings)
 
-**📁 Assignment Path:** *Assignments/Monal.Ambwani_22987/lab0.pdf*
+**📁 Assignment Path:** **
 
 ---
 
