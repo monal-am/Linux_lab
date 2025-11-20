@@ -106,21 +106,7 @@ Includes setup tasks such as:
 
 ---
 
-# 📝 Assignment 6 – Linux Process Management
-
-This assignment includes:
-
-* Using `ps`, `top`, `htop`
-* Understanding process states
-* Managing processes: `kill`, `nice`, `renice`
-* Foreground/background jobs: `&`, `bg`, `fg`
-* Explanation of each command with examples
-
-**📁 Assignment Path:** *Assignments/Monal_590022987.pdf*
-
----
-
-# 📝 Assignment 7 – Handwritten Scripts Collection
+# 📝 Assignment 6 – Handwritten Scripts Collection
 
 Includes the following handwritten scripts rewritten and explained:
 
@@ -132,6 +118,20 @@ Includes the following handwritten scripts rewritten and explained:
 Each script is included with explanation.
 
 **📁 Assignment Path:** *Assignments/Assignment7.pdf*
+
+---
+
+# 📝 Assignment 7 – Linux Process Management
+
+This assignment includes:
+
+* Using `ps`, `top`, `htop`
+* Understanding process states
+* Managing processes: `kill`, `nice`, `renice`
+* Foreground/background jobs: `&`, `bg`, `fg`
+* Explanation of each command with examples
+
+**📁 Assignment Path:** *Assignments/Monal_590022987.pdf*
 
 ---
 
