@@ -27,7 +27,7 @@ A detailed report explaining installation of Ubuntu on a system or VM.
 * Screenshots of installation stages
 * Post‑installation checks (terminal, files, settings)
 
-**📁 Assignment Path:** **
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab0.pdf*
 
 ---
 
@@ -44,7 +44,7 @@ Includes:
 
 Each command is explained **line by line** with examples.
 
-**📁 Assignment Path:** *Assignments/lab1.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab1.pdf*
 
 ---
 
@@ -59,7 +59,7 @@ Covers executing simple shell scripts like:
 
 Includes script explanation line‑by‑line.
 
-**📁 Assignment Path:** *Assignments/lab2.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab2.pdf*
 
 ---
 
@@ -76,7 +76,7 @@ We upgraded an existing script `print_numbers.sh` that originally printed number
 
 The script is explained line‑by‑line.
 
-**📁 Assignment Path:** *Assignments/lab3.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab3.pdf*
 
 ---
 
@@ -89,7 +89,7 @@ This lab covers automation of:
 * Timestamp‑based folder creation
 * Script explanation with flow and output
 
-**📁 Assignment Path:** *Assignments/lab4.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab4%20(1).pdf*
 
 ---
 
@@ -102,7 +102,7 @@ Includes setup tasks such as:
 * Creating utility scripts (starter kit)
 * Automating repeated tasks
 
-**📁 Assignment Path:** *Assignments/lab5.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f6d432fa640ccb8e6edd5ca6f55ad7ebd9f5c955/Assignments/Monal.Ambwani_22987/lab5.pdf*
 
 ---
 
