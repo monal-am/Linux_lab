@@ -117,7 +117,7 @@ Includes the following handwritten scripts rewritten and explained:
 
 Each script is included with explanation.
 
-**📁 Assignment Path:** *Assignments/Assignment7.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f1c5ee81dd27f9e2f271836a506676c8edde81ac/Assignments/Monal.Ambwani_22987/Assignment.6.pdf*
 
 ---
 
@@ -131,7 +131,7 @@ This assignment includes:
 * Foreground/background jobs: `&`, `bg`, `fg`
 * Explanation of each command with examples
 
-**📁 Assignment Path:** *Assignments/Monal_590022987.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f1c5ee81dd27f9e2f271836a506676c8edde81ac/Assignments/Monal.Ambwani_22987/Assignment.7.pdf*
 
 ---
 
@@ -145,7 +145,7 @@ This assignment covers:
 * Verifying GUI access from local machine to remote Ubuntu system
 * Step-by-step process with all required commands
 
-**📁 Assignment Path:** *Assignments/MonalAmbwani_590022987.pdf*
+**📁 Assignment Path:** *https://github.com/monal-am/Linux_lab/blob/f1c5ee81dd27f9e2f271836a506676c8edde81ac/Assignments/Monal.Ambwani_22987/Assignment.8.pdf*
 
 ---
 
@@ -158,7 +158,7 @@ This is the only assessment for the Linux Lab. It includes:
 * Printing result (palindrome or not)
 * Line-by-line explanation of logic and script
 
-**📁 Assessment Path:** *Assignments/Assessment_1.pdf*
+**📁 Assessment Path:** *https://github.com/monal-am/Linux_lab/blob/f1c5ee81dd27f9e2f271836a506676c8edde81ac/Assignments/Monal.Ambwani_22987/Assessment_1.pdf*
 
 ---
 
