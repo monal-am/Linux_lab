@@ -1,4 +1,4 @@
-# 📘 Linux Lab – README
+# 📘 Linux Lab – 
 
 This repository contains all Linux lab **Labs (0–5)**, **Assignments (6–8)** and **Assessment 1**, along with explanations, scripts, and outputs. Each section includes a short description, detailed explanation, and a placeholder link for the assignment path.
 
@@ -27,7 +27,7 @@ A detailed report explaining installation of Ubuntu on a system or VM.
 * Screenshots of installation stages
 * Post‑installation checks (terminal, files, settings)
 
-**📁 Assignment Path:** *Assignments/lab0.pdf*
+**📁 Assignment Path:** *Lab files/lab0.md*
 
 ---
 
