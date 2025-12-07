@@ -1,0 +1,224 @@
+//Show ticket booking system
+#include <stdio.h>
+
+//colours add kardiye thode
+#define RED             "\x1b[31m" 
+#define GREEN           "\x1b[32m" 
+#define YELLOW          "\x1b[33m" 
+#define BLUE            "\x1b[34m" 
+#define MAGENTA         "\x1b[35m"
+#define CYAN            "\x1b[36m"
+#define WHITE           "\x1b[37m"
+
+
+int main() {
+
+int q=1,r=0,num =1;
+int rows = 5, column = 5;
+int choice,show=-1;
+int seatnumber, total = 0, foodChoice;
+char name[50];
+int  bookingstatus=0;
+int ticketprice,timeslot;
+
+printf(RED"======Hello WELCOME to SHOW TICKET BOOKING SYSTEM===== \n");
+ 
+while(q==1) //baar baar loop chalane ke liye
+{
+  printf(BLUE"MAIN MENU\n");   //main menu me enter hone ke liye
+  printf("PLEASE SELECT YOUR OPTION:\n");
+  printf("1). Choose your Show\n"); 
+  printf("2). Available Seats\n"); 
+  printf("3). Book Ticket\n"); 
+  printf("4). Order FOOD\n"); 
+  printf("5). Show my booking data\n"); 
+  printf("6). Exit\n");
+  
+  scanf("%d", &choice);
+   
+if(choice==1)   
+{
+        printf(YELLOW"Available Shows:\n"); // available shows show kar raha hai
+        printf("1. Movie: Thamma\n");
+        printf("2. Movie: Kantara\n");
+        printf("3. Comedy Show: Kapil Sharma Live\n");
+        printf("Select a show (1-3): "); //show choose karne ke liye
+        scanf("%d", &show);
+        printf("------------------------------------\n");
+        
+        
+        if (show<1 || show>3)  //taaki agar show galat add kia toh invalid dikha sake
+            {
+                printf("Invalid Option\n");
+            }
+            else
+            {
+            printf("\nYou selected: ");  //vo show karde konsa show choose kara hai
+            if (show == 1)
+            printf("THAMMA\n");
+            if (show == 2)
+            printf("KANTARA\n");
+            if (show == 3)
+            printf("KAPIL SHARMA LIVE\n");
+            }
+    }  
+else if(choice==2)
+   {
+       if(show==-1)    //as show ki value change hojaegi choose krne par and hamne show ko initialize kara tha -1 se
+       printf("First choose your show Please\n ");
+       else
+       { num=1;
+           printf(GREEN"Seats for this shows:\n"); //seats ka arrangement show kardega
+            printf("------------------------------------\n");  
+            for(int i = 0; i < rows; i++) 
+            {
+            for(int j = 0; j < column; j++)
+             {
+            printf("%d ", num);
+            num++;
+             }
+        printf("\n");
+            }
+         
+   }
+   }
+   
+else if (choice == 3) 
+{
+    if(show == -1)
+    {
+        printf("First choose your show Please\n");
+    }
+    else
+    {
+        printf("PLEASE SELECT YOUR TIME SLOT:\n");
+        printf("09:00 11:00  13:00\n");
+        printf("15:00  17:00  18:00\n");
+        printf("ENTER YOUR SLOT TIME IN --:00 FORM\n");
+        scanf("%d", &timeslot);
+
+       if(timeslot==9||timeslot==11||timeslot==13||timeslot==15||timeslot==17||timeslot==18)
+       {
+        printf("your seat is booked for the selected time slot\n");
+       }
+        else
+        {
+        printf("PLEASE SELECT A VALID TIME\n");   //agar galat time select kiya so isiliye wapas continue krde vo
+        continue;
+        }
+
+        printf("Enter seat number (1-25) for booking:\n ");
+        printf("(1-19) are CLASSIC (Rs.400/-)\n");
+        printf("(20-25) are RECLINER (Rs.700/-)\n ");
+        scanf("%d", &seatnumber);
+
+        if (seatnumber < 1 || seatnumber > 25)   // galat seat number choose karne par
+        {
+            printf("Invalid seat number!\n");
+        }
+        else 
+        {
+            if(seatnumber >= 1 && seatnumber <= 19)
+                ticketprice = 400;
+            else 
+                ticketprice = 700;
+
+            printf("Enter your first name: ");  //name daaldo ticket ke liye
+            scanf("%s", name);
+
+            printf(MAGENTA"Seat Number %d is successfully booked for %s\n",
+                   seatnumber, name);
+
+            bookingstatus = 1;
+        }
+    }
+}
+
+else if(choice ==4)
+{
+ if(show == -1)
+    {
+        printf("First choose your show Please\n");
+    }   
+ else 
+ {
+     total=0;  //0 isiliye initialize kiya taaki garbage value na ae
+     r=0;  // aage jaake iska loop chala ke baar chalaya taaki customer 1 se zada food option choose kar sake
+     printf(WHITE"====SELF SERVICE====\n");  //food services ke liye
+     printf("===== FOOD & BEVERAGE MENU =====\n");
+     printf("1.] Basic Salted Popcorn = RS.100\n");
+     printf("2.] Cheese Popcorn = RS.150\n");
+     printf("3.] PEPSI CAN = RS.80\n");
+     printf("4.] DIET COKE CAN = RS.80\n");
+     printf("5.] Basic Burger = RS.150\n");
+     printf("6.] *SPECIAL OFFER* ( Basic Popcorn + Drink) = RS.160\n");
+     printf("7.] Done ordering\n");   //jab order karna khtm hojae
+     
+     while(r==0)
+     {
+    printf(CYAN"Enter your food choice:\n ");
+    scanf("%d", &foodChoice);
+    
+        if (foodChoice == 1)
+        total += 100;
+    else if (foodChoice == 2)
+        total += 150;
+    else if (foodChoice == 3)
+        total += 80;
+    else if (foodChoice == 4)
+        total += 80;
+    else if (foodChoice == 5) 
+        total += 150;
+    else if (foodChoice == 6)
+        total += 160;
+    else if (foodChoice == 7)
+        r=1;  //loop band krne ke liye jese hi done ordering kia
+    else
+    printf("----INVALID PLEASE ENTER AGAIN----\n");  //1-7 ke alava kuch dala toh
+    
+     }
+     printf(GREEN"-YOUR ORDER IS PLACED-\n");
+     printf(RED"TOTAL AMOUNT OF FOOD = Rs.%d \n", total);
+   }
+}
+
+else if(choice == 5)
+{
+
+    if(show == -1)
+    {
+        printf("First choose your show\n");
+    }   
+
+
+    if(bookingstatus >= 1)
+    {
+        printf(WHITE "Seat Number %d is BOOKED for %s, timing %d:00, Your TOTAL PAYABLE AMOUNT is %d\n",
+               seatnumber, name, timeslot, total + ticketprice);  //saari info show krdega ki kisne,konsi seat,konsa show book kia
+    }
+    else
+    {
+        printf(RED "No booking found! Please book a seat first.\n"); //kuch book hi nahi kiya
+    }
+
+    printf("--------------------------\n");
+}
+   
+else if(choice==6)  
+ {
+
+     printf(MAGENTA"====THANKYOU FOR VISITING====\n");
+     q=0;  // poooora total loop khtm krne ke liye
+    
+ }
+ 
+ 
+
+ else {
+            printf("Invalid choice! Please try again.\n");  //1-6 ke alava kuch enter kia toh
+      }
+
+   
+} 
+    return 0;
+}
